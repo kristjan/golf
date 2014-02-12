@@ -1,1 +1,1 @@
-pig_latin.readable.rb
+pig_latin.min.rb
