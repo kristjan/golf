@@ -1,1 +1,1 @@
-eval`curl -L is.gd/dUmC6R`
+eval`curl -Ls is.gd/dUmC6R`
