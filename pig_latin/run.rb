@@ -7,7 +7,7 @@ latins = Dir['*.rb']
   .reverse
 
 latins.each do |latin, size|
-  puts "\nRunning #{latin} with #{size} chars"
+  puts "\e[32m\nRunning #{latin} with #{size} chars\e[0m"
   `ln -sf #{latin} pig_latin.rb`
   system('rspec pig_latin_spec.rb')
 end
